@@ -3,7 +3,7 @@ const path = require('path')
 
 exports.createPages = ({ graphql, actions }) => {
 
-  console.log(GATSBY_TELEMETRY_API)
+  console.log(process.env.GATSBY_TELEMETRY_API)
 
   const { createPage } = actions
 
